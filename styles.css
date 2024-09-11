@@ -1,0 +1,16 @@
+/* color palette found at m:Wiki color formatting help */
+.default-style {
+	margin:0 auto;
+	width:75%;
+	border:solid 0.8px;
+	border-color:#eaf3ff;
+	border-radius:10px;
+	padding:1em;
+}
+
+.full-width {
+	border:solid 0.8px;
+	border-color:#eaf3ff;
+	border-radius:10px;
+	padding:1em;
+}

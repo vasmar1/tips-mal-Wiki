@@ -1,0 +1,8 @@
+<templatestyles src="Tips/styles.css"/>
+<div class="{{#switch:{{{klasse|}}}|#default=default-style|full bredde=full-width}}">
+{{#switch:{{lc:{{{variant|}}}}} |ukens tips={{Wikipedia:Tips/{{#expr:{{CURRENTWEEK}} mod {{Wikipedia:Tips}} + 1}}}} |#default={{Wikipedia:Tips/{{#expr: {{NUMBEROFEDITS:R}} mod {{Wikipedia:Tips}} + 1 }}}} }}
+</div>
+<noinclude>
+{{dokumentasjon}}
+[[Kategori:Formateringsmaler|{{PAGENAME}}]]
+</noinclude>
